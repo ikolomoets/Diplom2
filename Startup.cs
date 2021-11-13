@@ -10,6 +10,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Diplom2
@@ -35,7 +36,8 @@ namespace Diplom2
                        .AllowAnyHeader();
             }));
 
-            services.AddControllers();
+            services.AddControllers().AddJsonOptions(x =>
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Diplom2", Version = "v1" });
@@ -55,6 +57,8 @@ namespace Diplom2
             diplomContext.Database.EnsureCreated();
 
             app.UseRouting();
+
+            app.UseCors("AllowAllPolicy");
 
             app.UseAuthorization();
 
