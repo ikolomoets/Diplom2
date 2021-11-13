@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplom2", "Diplom2.csproj", "{F5FEC2FB-BB2B-4380-A6EB-9DACDBD982FD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DiplomDatabase2", "DiplomDatabase2\DiplomDatabase2.sqlproj", "{EC4FF895-C5D5-4579-A797-AB0EE12C5466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FEC2FB-BB2B-4380-A6EB-9DACDBD982FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FEC2FB-BB2B-4380-A6EB-9DACDBD982FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FEC2FB-BB2B-4380-A6EB-9DACDBD982FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FEC2FB-BB2B-4380-A6EB-9DACDBD982FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4FF895-C5D5-4579-A797-AB0EE12C5466}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B8DD6AB-30B9-43B3-B5BE-484691B0C159}
+	EndGlobalSection
+EndGlobal

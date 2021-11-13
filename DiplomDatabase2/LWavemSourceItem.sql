@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[LWavemSourceItem]
+(
+	[LWavemSourceItemId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+	[LWavemItemId] UNIQUEIDENTIFIER NULL, 
+
+	[X] FLOAT NULL,
+	[Y] FLOAT NULL,
+	[M] FLOAT NULL,
+	[Teta] FLOAT NULL
+	
+
+	CONSTRAINT FK_LWavemSourceItemId_LWavemItemId FOREIGN KEY (LWavemItemId)
+    REFERENCES LWavemItem(LWavemItemId)
+)

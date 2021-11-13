@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[LWaveHrItem]
+(
+	[LWaveHrItemId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Title] NVARCHAR(200) NULL,
+    [SourcesAmount] INT NULL,
+	[LastModify] DATETIME2 NOT NULL
+)
